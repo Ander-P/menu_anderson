@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string-array name="spinner_items">
-        <item>Front-End</item>
-        <item>Back-End</item>
-        <item>Full-Stack</item>
+        <item>Barraquilla</item>
+        <item>Bogota</item>
+        <item>Cali</item>
     </string-array>
-
 </resources>

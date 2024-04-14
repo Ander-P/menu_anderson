@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
         btmNav = findViewById(R.id.btmNav);
 
         btmNav.setOnItemSelectedListener(item -> {
-            if (item.getItemId() == R.id.navHome) {
+            if (item.getItemId() == R.id.rick) {
                 loadFragment(imageViewFragment);
                 return true;
-            } else if (item.getItemId() == R.id.navChats) {
+            } else if (item.getItemId() == R.id.spinner_1) {
                 loadFragment(spinnerFragment);
                 return true;
             }

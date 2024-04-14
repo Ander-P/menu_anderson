@@ -12,18 +12,15 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Image view"
-            android:textSize="20sp" />
+
 
         <ImageView
             android:id="@+id/ivTest"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="685dp"
+            android:background="#B8896A"
             android:scaleType="fitCenter"
-            android:src="@drawable/iv_test" />
+            android:src="@drawable/rickmorty" />
 
     </LinearLayout>
 
